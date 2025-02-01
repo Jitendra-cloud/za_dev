@@ -1,6 +1,13 @@
 <mvc:View controllerName="djp.fullscreen.zadevelopingfullscreenapp.controller.NotFound"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-    </Page>
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+
+    <MessagePage id="messagePage1" 
+    title="{i18n>notFoundMessageTitle}"
+    text="{i18n>notFoundMessageText}"
+    description="{i18n>notFoundMessageDescrition}"
+    showNavButton="true"
+    navButtonPress="onNavBack"/>
+
+    
+
 </mvc:View>
