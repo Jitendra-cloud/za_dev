@@ -23,16 +23,16 @@
                     </Toolbar>
                 </headerToolbar>
                 <columns>
-                    <Column id="column4">
+                    <Column id="column4" width="12em">
                         <Text id="text4" text="{i18n>carriername}" />
                     </Column>
-                    <Column id="column5">
+                    <Column id="column5" minScreenWidth="Tablet" demandPopin="true">
                         <Text id="text5" text="{i18n>flightdate}" />
                     </Column>
-                    <Column id="column6">
+                    <Column id="column6" minScreenWidth="Tablet" demandPopin="true">
                         <Text id="text6" text="{i18n>seatmax}" />
                     </Column>
-                    <Column id="column7">
+                    <Column id="column7" hAlign="Right">
                         <Text id="text7" text="{i18n>seatocc}" />
                     </Column>
                 </columns>
