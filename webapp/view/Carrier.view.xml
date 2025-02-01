@@ -14,7 +14,7 @@
                     </Column> 
                 </columns>
                 <items>
-                    <ColumnListItem id="columnListItem1">
+                    <ColumnListItem id="columnListItem1" press="onPress" type="Navigation">
                         <cells>
                             <ObjectIdentifier id="objectIdentifier1" title="{Carrid}" />
                                 <Text id="text3" text="{Carrname}" />
